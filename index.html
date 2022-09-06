@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="assets/images/logo.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"/>
+ 
+    <link rel="stylesheet" href="assets/css/style.min.css"/>
+  
+    <title>Roxandrea</title>
+    <meta name="keywords" content="Resort, Hotel, Roxandrea, Miami, Aruba, Cuba, Brasil"/>
+    <meta name="description" content="Roxandrea offers a wide range of unique properties in a variety of world-class destinations - from adults-only and family-friendly to opulent villas and intimate urban retreats."/>
+    <meta name="author" content="Aleksandra Jacimović"/>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Roxandrea</a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Roxandrea</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"> 
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="offers.html">Offers</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Destinations
+                  </a>
+                  <ul class="dropdown-menu border-light">
+                    <li><a class="dropdown-item" href="destinations.html#aruba">Aruba</a></li>
+                    <li><a class="dropdown-item" href="destinations.html#cuba">Cuba</a></li>
+                    <li><a class="dropdown-item" href="destinations.html#miami">Miami</a></li>
+                    <li><a class="dropdown-item" href="destinations.html#brasil">Brasil</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="author.html">Author</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header border-0">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="row p-4 justify-content-center justify-content-md-between">
+              <div class="col-12 col-md-7">
+                <h3>Special offer this weekend!</h3>
+                <p>Enjoy a romantic hotel stay with dinner this weekend (Thursday-Sunday).</p>
+                <p>What's included?</p>
+                <ul>
+                  <li>Overnight stay in a superior room at one of our hotels</li>
+                  <li>Sparkling wine and fruit in your room when you arrive</li>
+                  <li>The 3-course meal in our restaurant on your arrival day</li>
+                  <li>Breakfast buffet</li>
+                  <li>Free WiFi</li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-4">
+                <img src="assets/images/galery7.jpeg" alt="Special offer" class="img-fluid"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/cover1.jpeg" class="d-block w-100" alt="Cover"/>
+            <div class="carousel-caption">
+              <h1>Welcome to Roxandrea</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/cover2.jpeg" class="d-block w-100" alt="Cover"/>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/cover3.jpeg" class="d-block w-100" alt="Cover"/>
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row my-5 justify-content-center justify-content-md-around">
+          <div class="col-10 col-md-3 my-2">
+            <img src="assets/images/birthday.jpeg" class="img-fluid" alt="Special Offer">
+          </div>
+          <div class="col-10 col-md-5 text-justify my-2">
+            <h2>Special Offer</h2>
+            <p>Roxandrea Hotels & Resorts have completely reimagined the all-inclusive luxury travel experience. With stunning properties in the world's most desirable locations, a no-surprises prix-fixe cost, and our unique World Class Gourmet Inclusive® dining, Roxandrea offers an unforgettable experience no matter where your adventures take you.</p>
+            <p class="mt-2">Celebrate birthdays by the pool of our luxury hotel with top service, great food and a beautiful ambiance.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center my-5">
+            <h2>Gallery</h2>
+          </div>
+          <div class="col-10 m-2 m-md-0 col-md-4">
+            <div class="row justify-content-md-between">
+              <div class="col-12 m-1 m-sm-0 col-sm-6">
+                <img src="assets/images/galery6.jpeg" class="img-fluid" alt="Gallery"/>
+              </div>
+              <div class="col-12 m-1 m-sm-0 col-sm-6">
+                <img src="assets/images/galery5.jpeg" class="img-fluid" alt="Gallery"/>
+              </div>
+              <div class="col-12 m-1 m-md-0 col-md-12 mt-md-4">
+                <img src="assets/images/galery1.jpeg" class="img-fluid" alt="Gallery"/>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 m-2 m-md-0 col-md-6">
+            <div class="row justify-content-md-between">
+                <div class="col-12 m-1 m-sm-0 col-sm-7 col-md-7">
+                  <img src="assets/images/galery2.jpeg" class="img-fluid" alt="Gallery"/>
+                </div>
+                <div class="col-12 m-1 m-sm-0 col-sm-5 col-md-5">
+                  <div class="row height-100 align-content-between">
+                    <div class="col-12 m-1 m-sm-0 col-sm-12 col-md-12">
+                      <img src="assets/images/galery3.jpeg" class="img-fluid" alt="Gallery"/>
+                    </div>
+                    <div class="col-12 m-1 m-sm-0 col-sm-12 col-md-12">
+                      <img src="assets/images/galery7.jpeg" class="img-fluid" alt="Gallery"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center my-5">
+          <div class="col-12 text-center mb-5">
+            <h2>FAQ</h2>
+          </div>
+          <div class="col-10 col-md-4 my-3 p-0 px-md-2">
+            <div id="list-example" class="list-group">
+              <a class="list-group-item list-group-item-action py-3 fs-5" href="#list-item-1">Reservation Confirmation</a>
+              <a class="list-group-item list-group-item-action py-3 fs-5" href="#list-item-2">Phone Reservations</a>
+              <a class="list-group-item list-group-item-action py-3 fs-5" href="#list-item-3">Pet Friendly</a>
+              <a class="list-group-item list-group-item-action py-3 fs-5" href="#list-item-4">Cooking Outside Resort</a>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 my-3 border p-0">
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example px-2" tabindex="0">
+              <h3 class="fs-4" id="list-item-1">How do I make a confirmed reservation?</h3>
+              <p>For confirmed reservations, a deposit of at least 50 percent of the villa (or villas) total accommodation cost must be made to our Banco de Oro account (O’s Landing Beach Resort – Account No. 00-43-803-24888). You can send us a pic of your deposit receipt through our FB Messenger page to help facilitate your booking. Please present your deposit receipt to the front desk upon check-in for billing purposes.</p>
+              <h3 class="fs-4" id="list-item-2">Can I make a reservation on the phone?</h3>
+              <p>Yes, you can and your reservation will be duly noted. But it will be considered temporary and can be cancelled at any time if another guest makes a confirmed reservation for the same villa or villas for the same date. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, expedita aut sequi asperiores ullam tempore recusandae optio reprehenderit ex quis a qui voluptatum molestiae voluptates rerum cumque repudiandae ipsa labore?</p>
+              <h3 class="fs-4" id="list-item-3">Is your resort pet friendly? Can our pets be with us during our stay at the resort?</h3>
+              <p>Our resort generally allows guests to bring personal and family pets with them during their stay provided pet owners ensure than their pets are toilet trained or always provided with animal diapers and the like. Dogs and other similar pets must be properly leashed when on resort grounds. For the safety and convenience of all resort guests, please inform the front desk during the reservation or booking process and upon check-in of any pets and animal companions you intend to bring with you into the resort grounds and facilities. Exotic and unusual pets may be refused admission by resort staff for safety and sanitary reasons.</p>
+              <h3 class="fs-4" id="list-item-4">Can we cook or grill food outside the villas or on the beach? Can we make a bonfire within the beach area at night?</h3>
+              <p>Sorry, the cooking or grilling of food on the resort grounds or within the beach area is not allowed due to fire safety concerns. Bonfires are also generally prohibited for similar reasons. You should consult with our resort staff if you plan to have these type of activities during your stay.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid bg-dark p-5 pb-0">
+        <div class="row justify-content-center justify-content-md-between">
+          <div class="col-12 col-md-6 footer py-4 px-3">
+            <h3 class="text-light">Locations</h3>
+            <p class="text-light">Roxandrea offers a wide range of unique properties in a variety of world-class destinations; from adults-only and family-friendly to opulent villas and intimate urban retreats. At Roxandrea, we believe in sustainability and giving back to the community.</p>
+            <nav>
+              <ul class="d-flex flex-wrap text-light p-0">
+                <li class="col-6 list-group-item mb-1">Miami</li>
+                <li class="col-6 list-group-item mb-1">Aruba</li>
+                <li class="col-6 list-group-item mb-1">Brasil</li>
+                <li class="col-6 list-group-item mb-1">Cuba</li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-12 col-md-4 py-3 px-3 text-center text-light networks">
+                <h3>Contact</h3>
+                <ul class="list-group">
+                  <li>Phone: +543 543 54 54</li>
+                  <li>E-mail: hotel@gmail.com</li>
+                  <li class="my-3">
+                    <a class="text-light fs-2 mx-2" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="text-light fs-2 mx-2" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="text-light fs-2 mx-2" href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="text-light fs-2 mx-2" href="https://www.pinterest.com/" target="_blank"><i class="fab fa-pinterest-square"></i></a>
+                  </li>
+                  <li class="my-4">
+                    <a class="text-light fs-2" href="assets/css/style.css"><i class="fa-brands fa-css3-alt"></i></a>
+                  </li>
+                </ul>
+          </div>
+        </div>
+      </div>
+
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      <script src="assets/js/main.js"></script>
+
+
+</body>
+</html>
